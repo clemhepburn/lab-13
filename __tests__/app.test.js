@@ -1,6 +1,3 @@
-import supertest from 'supertest';
-import app from '../lib/app.js';
-const request = supertest(app);
 import locationData from '../data/location';
 import weatherData from '../data/weather';
 import yelpData from '../data/yelp';
